@@ -8,6 +8,6 @@ export const Avatar = ()=>{
 
     return(<div className="avatar">
     <img  src={avi}  id="profile" alt="avatar"></img>
-    <h2 className="taurian"></h2>
+    <h2 className="taurian">Taurian Graham</h2>
   </div>)
 }
