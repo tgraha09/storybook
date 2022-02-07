@@ -8,21 +8,6 @@ import './styles/about.css'
 /*My name is Taurian Graham and I have a Computer Programming background in Game Design & Development from Rochester Institute of Technology.  
                 Currently I am an IT Manager with experience in software development, web applications, and project management while also having a demonstrated history of working 
                 in retail and payment transactions services. I hope to work with diverse teams for creative projects in the technical industry after my core studies.*/
-const aboutContent = ()=>{
-    
-    return (<>
-                <p id="bio" className="plainText">
-                Hello!<br></br> <br></br>My name is  and I have a Computer Programming background in Game Design & Development from Rochester Institute of Technology.  
-                Currently I am an IT Manager with experience in software development, web applications, and project management while also having a demonstrated history of working 
-                in retail and payment transactions services. I hope to work with diverse teams for creative projects in the technical industry after my core studies.     
-            </p>
-
-            <div className="contact-wrap">
-                <a className="tkg-button" id="link-resume" href="./resume.pdf"><h2>Resume</h2></a>
-                <Link className="tkg-button" id="link-email" to="/about/email"><h2>Email</h2></Link>
-        </div>
-    </>)
-}
 
 const sendMail = ()=>{
     console.log("sendMail")
@@ -65,7 +50,10 @@ export const About = ()=>{
             </p>
 
             <div className="contact-wrap">
-                <a className="tkg-button" id="link-resume" href="./resume.pdf"><h2>Resume</h2></a>
+                <a className="tkg-button" id="link-resume" href="javascript:void(0)" onClick={()=>{
+                    //console.log("CLICK")
+                    window.open('./resume.pdf')
+                }}><h2>Resume</h2></a>
                 <a className="tkg-button" id="link-resume" href="https://www.linkedin.com/in/taurian-graham-b9a6111bb/"><h2>LinkedIn</h2></a>
                 <Link className="tkg-button" id="link-email" to="/about/email"><h2>Email</h2></Link>
         </div>
