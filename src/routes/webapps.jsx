@@ -44,7 +44,7 @@ export const WebApps = ()=>{
     return(<div className="panel" id="webapps">
         <div id="app-list">
             <div className="app-item">
-              <a className="tkg-button" id="web-app" href="./projects/autonomous/">
+              <a className="tkg-button" id="web-app" href="https://autonomous-agents.pages.dev/">
                 <p>Autonomous Agents</p>
               </a>
               <p>Web App</p>
