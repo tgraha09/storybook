@@ -6,7 +6,7 @@ import './styles/avatar.css'
 export const Avatar = ()=>{
 
     return(<div className="avatar">
-    <img  src="./media/pic.png"  id="profile" alt="avatar"></img>
+    <img  src="profile.jpg"  id="profile" alt="avatar"></img>
     <h2 className="taurian"></h2>
   </div>)
 }
