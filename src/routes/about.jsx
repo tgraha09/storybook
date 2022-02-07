@@ -59,7 +59,9 @@ export const About = ()=>{
     console.log("ABOUT")
     return(<div className="panel" id="about">
     <p id="bio" className="plainText">
-                Hello!<br></br> <br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eligendi quae vitae soluta assumenda, amet voluptates deleniti blanditiis repellendus id quo, iste qui. Minima aliquam, debitis modi reiciendis esse quisquam.
+                Hello!<br></br> <br></br>My name is Taurian Graham and I have a Computer Programming background in Game Design & Development from Rochester Institute of Technology.  
+                Currently I am an IT Manager with experience in software development, web applications, and project management while also having a demonstrated history of working 
+                in retail and payment transactions services. I hope to work with diverse teams for creative projects in the technical industry after my core studies.
             </p>
 
             <div className="contact-wrap">

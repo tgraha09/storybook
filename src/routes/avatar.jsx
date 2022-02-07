@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDOM, { render } from 'react-dom'
 import { BrowserRouter as Router, Route, Switch, Link, Redirect, BrowserRouter } from 'react'
 import './styles/avatar.css'
-import avi from './profile.jpg';
+import avi from '../media/profile.jpg';
 //profile.jpg
 export const Avatar = ()=>{
 
