@@ -58,7 +58,7 @@ export const WebApps = ()=>{
             </div>
 
             <div className="app-item">
-              <a className="tkg-button" id="web-app" href="./projects/project2/">
+              <a className="tkg-button" id="web-app" href="https://paper-analyzer.pages.dev/">
                 <p>Paper Analyzer</p>
               </a>
               <p>Web Service</p>
