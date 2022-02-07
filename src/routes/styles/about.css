@@ -19,6 +19,7 @@
 .contact-wrap{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 #message.mail{
   min-height: 10vh;
@@ -34,7 +35,7 @@
 .contact-wrap > #link-resume{
   background-color: rgb(25, 25, 51);
   color: white;
-  margin: 0vh 1vh 0vh 2vh;
+  margin: 0vh 1vh 1vh 2vh;
   padding: 0vh 1vh 0vh 1vh;
   box-shadow: 0 .5rem .5rem .1em black;
 }
