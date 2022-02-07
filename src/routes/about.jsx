@@ -18,7 +18,7 @@ const aboutContent = ()=>{
             </p>
 
             <div className="contact-wrap">
-                <a className="tkg-button" id="link-resume" href="resume.pdf"><h2>Resume</h2></a>
+                <a className="tkg-button" id="link-resume" href="./resume.pdf"><h2>Resume</h2></a>
                 <Link className="tkg-button" id="link-email" to="/about/email"><h2>Email</h2></Link>
         </div>
     </>)
@@ -65,7 +65,7 @@ export const About = ()=>{
             </p>
 
             <div className="contact-wrap">
-                <a className="tkg-button" id="link-resume" href="../src/media/resume.pdf"><h2>Resume</h2></a>
+                <a className="tkg-button" id="link-resume" href="./resume.pdf"><h2>Resume</h2></a>
                 <a className="tkg-button" id="link-resume" href="https://www.linkedin.com/in/taurian-graham-b9a6111bb/"><h2>LinkedIn</h2></a>
                 <Link className="tkg-button" id="link-email" to="/about/email"><h2>Email</h2></Link>
         </div>
