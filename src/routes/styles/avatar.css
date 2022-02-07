@@ -1,0 +1,26 @@
+/***Avatar***/
+#profile{
+    border-radius: 50%;
+    margin: 2vh 2vh 0vh 2vh;
+    width: 25vw;
+    min-width: 100px;
+    max-width: 125px;
+    border: .25rem solid rgba(255, 255, 255, 0.7);
+    box-shadow: .1rem .5rem .5rem .1rem black;
+  }
+  .avatar{
+    text-align: center;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+          
+  }
+  .taurian{
+    text-shadow: 0rem 0.25rem 0.3rem #000000;
+  }
+  .avatar>.taurian{
+    color: white;
+   text-shadow: 0rem 0.25rem 0.3rem #000000;
+  }

@@ -1,0 +1,106 @@
+*{
+    font-family: bebas;
+}
+
+#user-input {
+    
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: max-content;
+    max-width: 450px;
+    max-height: 600px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+
+header{
+    margin-bottom: 1rem;
+}
+
+#app{
+    max-width: 450px;
+    min-height: 40rem;
+    max-height: 40vh;
+}
+#user-input > *{
+    display: inline;
+}
+table{
+    margin-top: 20rem;
+    max-width: 750px;
+}
+tr{
+    width: 35rem;
+}
+th{
+    width: 10rem;
+}
+#main{
+    max-height: 40vh;
+    width: min-content;
+}
+#root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#control-panel{
+    display: flex;
+    margin-bottom: 1rem;
+    
+    flex-direction: row;
+    
+}
+#hl{
+    margin: 0;
+    display: inline;
+    background-color: rgb(255, 128, 128);
+}
+#bl{
+    margin: 0;
+    display: inline;
+    background-color: rgb(255, 240, 101);
+}
+#wrap{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 0;
+    margin-bottom: 1rem;
+    
+}
+.table::-webkit-scrollbar {
+      display: none;
+}
+.table{
+    margin-top: 0;
+    max-width: 500px;
+    
+}
+
+#report{
+    -ms-overflow-style: none;  
+      scrollbar-width: none; 
+    max-height: 685px;
+    overflow-y: scroll;
+    
+}
+#report::-webkit-scrollbar {
+    display: none;
+}
+
+.title{
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('./../../fonts/bebas-neue/BebasNeue-Regular.otf');
+}

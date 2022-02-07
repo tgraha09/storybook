@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(25, 28, 56);
+    font-family: bebas;
+    letter-spacing: .1rem;
+    margin-left: calc(27%);
+}
+
+
+
+ #fps, #directions{
+    color: white;
+}
+#rect, #circ{
+    max-width: 150px;
+}
+
+article{
+    margin-bottom: 1rem;
+    color: white;
+    max-width: 800px;
+}
+#num1{
+    margin-left: 2rem;
+    width: fit-content;
+    margin-top: .75rem;
+    text-align: center;
+    max-width: 200px;
+}
+#num{
+    margin-left: 2rem;
+    width: fit-content;
+    margin-top: .75rem;
+    text-align: center;
+    max-width: 200px;
+}
+
+#rectsub{
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+}
+
+
+
+#inputs{
+    display: flex;
+}
+
+#ct{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: .5rem;
+}
+
+#directions{
+    max-width: 600px;
+   
+}
+p{
+    margin-bottom: 0;
+}
+
+#loopType{
+    margin-right: 0.25rem;
+}
+
+#loops{
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    margin-left: 1.75rem;
+}
+
+#type{
+    font-family: bebas;
+    
+}
+
+#checkseek{
+    
+}
+
+#box{
+    
+    max-width: 200px;
+    width: fit-content;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-left: 2.5rem;
+}
+
+.slider{
+    min-width: 200px;
+}
+
+#check{
+    margin-top: 0.5rem;
+}
+
+button, #rectsub, #circsub{
+    background-color: rgb(141, 149, 216);
+    font-family: bebas;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+#cwrap{
+    padding-left: 0.5rem;
+    min-height: min-content;
+}
+
+.app{
+    display: flex;
+    margin-right: 1rem;
+    justify-content: center;
+    max-width: 800px;
+    height: 500px;
+    background: #FFFFFF;
+    
+}
+
+
+
+.app>*{
+    
+    
+}
+
+#ctx{
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
+    max-width: 500px;
+    
+}
+
+canvas{
+    background-color: #7fffd4;
+    
+}
+
+.app>.canvas{
+    max-width: 480px;
+    max-height: 380px;
+    
+    
+    
+}
+
+.app>.controls{
+    
+    width: 256px;
+    height: fit-content;
+    background: #C4C4C4;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 1rem;
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('./../fonts/bebas-neue/BebasNeue-Regular.otf');
+}

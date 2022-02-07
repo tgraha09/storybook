@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Project 1 - Autonomous Agents</title>
+</head>
+<body>
+    
+    <article>
+        <header>
+            <h1>Project 1 - Autonomous Agents</h1>
+        
+        </header>
+        This project is meant to show agents moving autonomously, searching for a target based off of two human senses. The first being sound which determines rotation, 
+        and sight for movement when both are enabled. (Take note of the change in performance when changing the agents attribtues.) 
+    </article>
+    <div class="app">
+        <div id="ctx">
+            <canvas class="canvas" width="480" height="380">
+
+            </canvas>
+            <div id="inputs">
+                <form id="num">
+                    <label>Number of RectAgents: </label><br>
+                    <input type="text" id="rect" name="rect" value="2"><br><input id="rectsub" type="button" value="Submit">
+                    
+                  </form>
+                  <form id="num1">
+                    <label>Number of CircAgents: </label>
+                    <input type="text" id="circ" name="circ" value="1"><input id="circsub" type="button" value="Submit">
+                  </form>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <h2 id="ct">Control Panel</h2>
+            <div id="cwrap">
+                <div id="loops">
+                    <label id="loopType">Choose Loop :</label>
+                    <select name="loopType" id="type">
+                        <option value="1">Standard FPS</option>
+                        <option value="2">Window Request</option>
+                    </select>
+                   
+                </div>
+                
+                <div id="box">
+                    <button id="origin">Show/Hide Origin Points</button>
+                    <button id="collider">Show/Hide Vision</button>
+                    <button id="sound">Show/Hide Sound</button>
+                    <button id="loop">Pause/Play Loop</button>
+                    <div id="check">
+                        <input type="checkbox" id="checkseek" name="checkseek" checked>
+                        <label for="checkseek">Enable Seek</label>
+                    </div>
+                </div>
+                
+                <div id="sliders">
+                    <div class="fpswrap">
+                        <p>Choose FPS Value :  <span id="fpsVal"></span></p>
+                        <input type="range" min="1" max="120" value="60" class="slider" id="fpsSlide">
+                        
+                    </div>
+                    <div class="speedwrap">
+                        <p>Speed Value :  <span id="speedVal"></span></p>
+                        <input type="range" min="0" max="20" value="5" class="slider" id="speedSlide">
+                    </div>    
+                    <div class="rangewrap">
+                        <p>Visor Range Value :  <span id="visorVal"></span></p>
+                        <input type="range" min="0" max="150" value="30" class="slider" id="visorSlide">
+                    </div>   
+                    <div class="soundwrap">
+                        <p>Sound Range Value :  <span id="soundVal"></span></p>
+                        <input type="range" min="0" max="200" value="50" class="slider" id="soundSlide">
+                    </div> 
+                </div> 
+                
+            </div>
+                   
+        </div>
+        
+    </div>
+    
+    <h2 id="fps">FPS:</h2>
+    <section id="directions">
+        
+        <div>
+            <h2>Directions:</h2>
+            <ul>
+                <li>
+                    <h3>
+                        Choose which loop you would like to use on the control panel.
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Adjust the Agent's Speed, View and Sound range with the Slider Controls. 
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Enter in the number of agents you would like using the input boxes.  
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Click and drag on the screen to move Circle Agents.  
+                    </h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="./src/js/loader.js" type="module">
+	
+	</script>
+</body>
+</html>

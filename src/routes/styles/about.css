@@ -1,0 +1,70 @@
+/*ABOUT*/
+#about{
+  background-color: var(--aboutC);
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 4vh 2vh 4vh;
+}
+
+.plainText{
+  color: white;
+}
+#bio{
+  /*padding: 2vh 4vh 0vh 4vh;*/
+  display: flex;
+  justify-content: center;
+}
+
+/***Email/Resume***/
+.contact-wrap{
+  display: flex;
+  justify-content: center;
+}
+#message.mail{
+  min-height: 10vh;
+/*padding: 1vh 2vh 2vh 1vh;*/
+}
+  
+.mail{
+  border-radius: 1vh;
+  margin: 1vh 0vh 0vh 0vh;
+  min-height: 1.5vh;
+}
+  
+.contact-wrap > #link-resume{
+  background-color: rgb(25, 25, 51);
+  color: white;
+  margin: 0vh 1vh 0vh 2vh;
+  padding: 0vh 1vh 0vh 1vh;
+  box-shadow: 0 .5rem .5rem .1em black;
+}
+  
+.contact-wrap > #link-email{
+  color: rgb(25, 25, 51);
+  background-color: white;
+  margin: 0vh 2vh 0vh 1vh;
+  box-shadow: 0 .5rem .5rem .1em black;
+}
+  
+#link-back{
+  height: fit-content;
+  width: fit-content;
+  color: rgb(25, 25, 51);
+  background-color: white;
+  margin-bottom: 0.5vh;
+  box-shadow: 0 .5rem .5rem .1em black;
+}
+  
+#submit{
+  color: rgb(25, 25, 51);
+  background-color: white;
+  margin-top: 1vh;
+  padding: 0vh 1vh 0vh 1vh;
+  box-shadow: 0 .5rem .5rem .1em black;
+}
+  
+#emailme{
+  display: flex;
+  flex-direction: column;
+   
+}

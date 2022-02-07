@@ -1,0 +1,28 @@
+#unityContainer{
+    opacity:0.8;
+    background-color:#ccc;
+    
+   
+    z-index:1000;
+   
+   
+   
+    
+}
+
+#unityContainer>#canvas{
+    width: 1000px;
+    
+}
+
+
+.galaxy-invaders{
+    
+}
+.webgl-content{
+    
+}
+
+.webgl-content::-webkit-scrollbar {
+    display: none;
+}

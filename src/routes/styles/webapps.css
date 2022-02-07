@@ -1,0 +1,127 @@
+#webapps{
+    background-color: var(--webC);
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+#app-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+}
+
+#app-list{
+    padding: 0.5vh 1vh 1vh 1vh;
+}
+
+#app-list>.tkg-button{
+   margin: 1vh 1vh 1vh 1vh;
+}
+
+.tkg-button>p{
+    
+    margin: 0;
+    padding: 0.5vh 0vh 0.5vh 0vh;
+}
+
+.tkg-button{
+    height: fit-content;
+}
+
+.tkg-display-inner> .tkg-button{
+    margin: 2vh;
+}
+
+.recipe-finder{
+    min-width: 80vw;
+    min-height: 60vh;
+    margin: 2vh;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+.galaxy-invaders{
+    min-width: 60vw;
+    height: 40vh;
+    
+    margin: 2vh;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+
+#app-list>.app-item>.tkg-button>p{
+    /*background-color: rgb(25, 25, 51);
+    color: white;*/
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow: 0 .5rem .5rem .1em black;
+    border-radius: 2rem;
+    padding: 0.5vh 1vh 0.5vh 1vh;
+}
+#app-list>.app-item>.tkg-button{
+    background-color: rgb(25, 25, 51);
+    color: white;
+    transition: .25s;
+    border-radius: 2rem;
+}
+
+#web-app>p:hover{
+    transform: scale(1.025);
+    background-color: white;
+    color: rgb(25, 25, 51);
+}
+#web-app>p:active{
+    transform: scale(1);
+}
+
+.app-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0vh 1vh 0vh 1vh;
+}
+
+.app-item{
+    background-color: rgba(87, 126, 216, 0.829);
+    padding: 1.25vh 2vh 1.25vh 2vh;
+    border-radius: 2vh;
+    margin: 1vh 1vh 0.5vh 1vh;
+}
+
+.app-item>p{
+    background-color: rgb(25, 25, 51);
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 0.5vh;
+    border-radius: 2vh;
+    box-shadow: 0 0.5rem 0.5rem 0.1em black;
+}
+
+
+/*.app-item{
+    
+    padding: 1vh 2vh 1vh 2vh;
+    margin: 1vh 1vh 1vh 1vh;
+    width: fit-content;
+}
+
+.app-item>h3{
+    margin: 0;
+    
+}*/
