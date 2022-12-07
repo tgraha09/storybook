@@ -46,8 +46,7 @@ export const About = ()=>{
     return(<div className="panel" id="about">
     <p id="bio" className="plainText">
                 Hello!<br></br> <br></br>My name is Taurian Graham and I have a Computer Programming background in Game Design & Development from Rochester Institute of Technology.  
-                Currently I am an IT Manager with experience in software development, web applications, and project management while also having a demonstrated history of working 
-                in retail and payment transactions services. I hope to work with diverse teams for creative projects in the technical industry after my core studies.
+                Currently I am a Tech Architecture Delivery Analyst with experience in software development, web applications, and project management. I hope to work with diverse teams for creative projects in the technical industry that are inline with my core studies.
             </p>
 
             <div className="contact-wrap">
