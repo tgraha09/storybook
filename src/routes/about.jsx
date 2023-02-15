@@ -3,7 +3,7 @@ import ReactDOM, { render } from 'react-dom'
 import { BrowserRouter as Router, Route, Switch, Link, Redirect, BrowserRouter, useHistory } from 'react-router-dom'
 import { Button } from "../stories/tkg/button/button.tkg.jsx";
 import './styles/about.css'
-import resume from './resume.pdf'
+import resume from '../media/resume.pdf'
 
 //require('../src/media/resume.pdf')
 /*My name is Taurian Graham and I have a Computer Programming background in Game Design & Development from Rochester Institute of Technology.  
