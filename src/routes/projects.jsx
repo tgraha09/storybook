@@ -24,17 +24,19 @@ export const Projects = ()=>{
             </ul>
         </div>
         <div className="project-item">
-            <a href="https://github.com/tgraha09/PerlinSimulator" className="toproject"><h3>Perlin Simulator</h3></a>
+            <a href="https://github.com/tgraha09/next-express" className="toproject"><h3>Ecommerce Shop</h3></a>
             <ul id="details">
                 <li className="detail-item">
-                    <h4>Frameworks: React, ViteJS</h4>
+                    <h4>Frameworks: React, SanityIO, MongoDB, Stripe</h4>
                 </li>
                 <li className="detail-item">
                     <h4>Platform: Browser</h4>
                 </li>
                 <li className="detail-item">
-                <h5 id="desc"> Developing a simulator for testing Perlin noise in level design by manipulating terrain data. <br/>
-                    This is to help illustrate different algorithms that could be used for terrain building. </h5>
+                    <h5 id="desc">  Developing a restful ecommerce shop in ReactJS. This microservice is 
+                                    M.E.R.N. based and uses SanityIO & Stripe for product schemas and 
+                                    payment processing.
+                    </h5>
               
                 </li>
             </ul>

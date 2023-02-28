@@ -51,8 +51,8 @@ export const WebApps = ()=>{
             </div>
             
             <div className="app-item">
-              <a className="tkg-button" id="web-app" href="https://tkg3369-project2.herokuapp.com/">
-                <p>Recipe Finder</p>
+              <a className="tkg-button" id="web-app" href="https://tgramz-express.herokuapp.com/">
+                <p>Ecommerce Shop</p>
               </a>
               <p>Web Service</p>
             </div>
