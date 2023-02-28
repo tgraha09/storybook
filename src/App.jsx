@@ -26,7 +26,7 @@ const NavArgs = {
   },
   WebApps:{
     backgroundColor: navButtonBackgroundColor,
-    children:<Link  className="tkg-button" id="link" to="/webapps"><h2>WebApps</h2></Link>
+    children:<Link  className="tkg-button" id="link" to="/webapps"><h2>Web Apps</h2></Link>
   },
   Github:{
     backgroundColor: navButtonBackgroundColor,

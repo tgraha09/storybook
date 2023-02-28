@@ -17,6 +17,7 @@
     "@storybook/addon-docs": "^6.1.21",
     "@storybook/addon-postcss": "^2.0.0",
     "css-loader": "^6.6.0",
+    "firebase-tools": "^11.24.0",
     "mini-css-extract-plugin": "^2.5.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
