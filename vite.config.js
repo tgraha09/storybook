@@ -11,10 +11,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  server: {
-    fs: {
-      // Allow serving files from one level up to the project root
-      allow: ['..']
-    }
-  }
+  server: {origin: "http://localhost:3000/"}
 })
