@@ -45,8 +45,11 @@ export const About = ()=>{
     console.log("ABOUT")
     return(<div className="panel" id="about">
     <p id="bio" className="plainText">
-                Hello!<br></br> <br></br>My name is Taurian Graham and I have a Computer Programming background in Game Design & Development from Rochester Institute of Technology.  
-                Currently I am a Tech Architecture Delivery Analyst with experience in software development, web applications, and project management. I hope to work with diverse teams for creative projects in the technical industry that are inline with my core studies.
+                Hello!<br></br> <br></br>My name is Taurian Graham and I am a Full Stack developer with experience as a Tech Architecture Delivery Analyst and 
+Software Development. My focus has been developing web applications and restful 
+API’s that utilize agile workflows for project management. This while leveraging my 
+Computer Programming background in Game Design & Development from 
+Rochester Institute of Technology.
             </p>
 
             <div className="contact-wrap">
